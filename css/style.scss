@@ -154,10 +154,17 @@ aside.mini-side-bar {
             color: #807e7e;
             outline: none;
             border: none;
-            margin-top: 1rem;
+            margin-top: .5rem;
+            padding-top: 1rem;
             i {
                 font-size: 1.25rem;
             }
+        }
+        .active-aside {
+            color: #fff;
+        }
+        :hover {
+            background-color: #494747;
         }
     }
 }

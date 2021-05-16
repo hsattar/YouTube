@@ -171,11 +171,20 @@ aside.mini-side-bar .aside-section .aside-row {
   color: #807e7e;
   outline: none;
   border: none;
-  margin-top: 1rem;
+  margin-top: .5rem;
+  padding-top: 1rem;
 }
 
 aside.mini-side-bar .aside-section .aside-row i {
   font-size: 1.25rem;
+}
+
+aside.mini-side-bar .aside-section .active-aside {
+  color: #fff;
+}
+
+aside.mini-side-bar .aside-section :hover {
+  background-color: #494747;
 }
 
 aside.big-side-bar {
